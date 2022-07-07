@@ -318,4 +318,8 @@ footer .footer {
     flex-direction: column;
     padding: 0 20px;
   }
+
+  .social-media-icons {
+    margin-bottom: 30px;
+  }
 }
