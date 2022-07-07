@@ -35,11 +35,9 @@ button:hover {
 
 nav {
   box-shadow: 5px 5px 5px var(--nav-shadow-color);
-}
-
-nav {
   position: sticky;
   top: 0;
+  background-color: var(--color-white);
   z-index: 1;
 }
 
@@ -263,6 +261,11 @@ footer .footer {
 
 
 @media (max-width: 768px) {
+
+  .header {
+    padding: 0 15px;
+  }
+
   .hero-section {
     flex-direction: column;
     padding: 0 10px;
@@ -284,6 +287,10 @@ footer .footer {
 
   .hero-content {
     align-items: center;
+  }
+
+  .content-heading {
+    align-self: center;
   }
 
   .hero-content .offer,
@@ -316,10 +323,14 @@ footer .footer {
 
   .footer {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 0 20px;
   }
 
   .social-media-icons {
     margin-bottom: 30px;
+    justify-content: center;
   }
+
 }
